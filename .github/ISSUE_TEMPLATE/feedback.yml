@@ -1,0 +1,17 @@
+name: 感想・使用感
+description: 使ってみた感想や気づいたことを、気軽にお寄せください
+title: "[感想] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        使ってみての感想をありがとうございます。良かった点だけでも構いません。
+        **フォルダ名やファイル名などの個人的な情報は、書かないでください。**
+  - type: textarea
+    id: impression
+    attributes:
+      label: 感想・使用感
+      description: 使ってみて感じたこと、気づいたこと、迷ったところなどを自由に書いてください。
+    validations:
+      required: true

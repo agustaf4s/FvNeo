@@ -1,0 +1,39 @@
+name: 要望
+description: こんな機能や改善がほしい、というときに使います
+title: "[要望] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご要望ありがとうございます。分かる範囲でご記入ください。
+        **書き方のヒント**：機能の名前より、「何をしようとして、何に困ったか」を書いていただくと伝わりやすくなります。
+        **フォルダ名やファイル名などの個人的な情報は、書かないでください。**（必要なら、伏せ字にしてください）
+  - type: textarea
+    id: what
+    attributes:
+      label: どんなことがしたいですか
+      description: 困っていることや、実現したいことを書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: 今はどうしていますか（任意）
+      description: 今の回避方法や手順があれば書いてください。
+    validations:
+      required: false
+  - type: textarea
+    id: old
+    attributes:
+      label: ほかのファイラーでの動き（任意）
+      description: ほかのファイラーに同じ機能があるなら、どの操作でどうなるかを文章で書いてください。他のソフトの画面のキャプチャは貼らないでください。
+    validations:
+      required: false
+  - type: textarea
+    id: idea
+    attributes:
+      label: こうなると嬉しい（任意）
+      description: 画面キャプチャを貼る場合は、フォルダ名などを伏せてからにしてください。
+    validations:
+      required: false
